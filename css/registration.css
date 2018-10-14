@@ -1,0 +1,15 @@
+.SignupForm{
+	height: 100vh;
+	background-color: #FFF;
+	border:2px solid grey;
+	background:linear-gradient(to bottom,#FEFAF4,#FDD598);
+}
+h2{
+	font-family: "Love Ya Like A Sister";
+	text-align: center;
+	padding: 10px;
+}
+body
+{
+	background:url("https://orig00.deviantart.net/5c52/f/2014/181/9/0/908d9b70180552366555f22ce7c4c8f0-d7olf0o.png");
+}

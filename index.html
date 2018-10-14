@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Induction Tasks</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/task.css">
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row overall">
+		<div class="col-md-3 col-sm-12 col-xs-12 toggleOptions">
+			<h3>PROFILES</h3>
+            <hr>
+            <br>
+            <div class="list-group" id="profileList" role="tablist">
+              <a class="list-group-item list-group-item-action active" data-toggle="list" href="#webDev" role="tab" id="webdev"><i class="fa fa-globe fa-2x"></i>    <b>Web Development</b></a>
+              <a class="list-group-item list-group-item-action" data-toggle="list" href="#appDev" role="tab" id="appdev"><i class="fa fa-android fa-2x"></i>    <b>App Development</b></a>
+              <a class="list-group-item list-group-item-action" data-toggle="list" href="#tronix" role="tab" id="tronixshow"><i class="fa fa-microchip fa-2x"></i>    <b>Tronix</b></a>
+              <a class="list-group-item list-group-item-action" data-toggle="list" href="#algorithms" role="tab" id="algos"><i class="fa fa-desktop fa-2x"></i>    <b>Algorithms</b></a>
+            </div>
+            
+		</div>
+		<div class="col-md-9 col-sm-12 col-xs-12 mainTaskBox">
+			<h3>TASKS ARCHIVE</h3>
+			<hr>
+			<div class="tab-content">
+              <div class="tab-pane fade show active" id="webDev" role="tabpanel">
+               <!-- Web Dev Task card -->
+               <div class="mainTaskDiv" id="webdevBox"></div>
+              </div>
+              
+              <div class="tab-pane fade" id="appDev" role="tabpanel">
+              	<!-- App dev task cards -->
+              	<div class="mainTaskDiv" id="appdevBox">
+              		
+              	</div>
+              </div>
+              <div class="tab-pane fade" id="tronix" role="tabpanel">
+              	<!-- tronix cards -->
+              	<div class="mainTaskDiv" id="tronixBox">
+        
+              	</div>
+              </div>
+              <div class="tab-pane fade" id="algorithms" role="tabpanel">
+                <div class="mainTaskDiv" id="algosBox"></div>
+              </div>
+            </div>
+		</div>
+	</div>
+</div>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
